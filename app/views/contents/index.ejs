@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Youtube Downloader</title>
+
+</head>
+
+<body>
+    
+    <div class="bs-component">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Youtube Downloader</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link">Download Video
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Getting Started</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-primary my-2 my-sm-0" type="submit"><a target="_blank" href="https://www.facebook.com/gabriel.valin.716/">Facebook</a></button>
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit"><a target="_blank" href="https://www.linkedin.com/in/gabriel-valin-1759801aa/">LinkedIn</a></button>
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit"><a target="_blank" href="https://www.facebook.com/gabriel.valin.716/">Github</a></button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <form action="http://localhost:7777/download/" method="GET">
+        <div id="centerbody" class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <label class="text-center">Paste your URL 🤫</label>
+                        </div>
+                        <div class="col-md-4">
+                            <select class="form-control" name="select" id="select">
+                                <option value="mp3">mp3</option>
+                                <option value="mp4">mp4</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <input type="text" name="uri" id="uri" class="form-control" placeholder="Here..">
+            </div>
+        </div>
+        <div id="centerbody" class="row justify-content-center">
+            <button type="submit" name="submit" class="btn btn-success">DOWNLOAD NOW.</button>
+        </div>
+        </form>
+    </div>
+    <div class="container-fluid">
+        <div id="centerbody" class="row justify-content-center">
+            <div class="jumbotron">
+                <h1 class="display-3">Whats up guys! 🤙🏻</h1>
+                <p class="lead">This is a simple software of youtube downloader. ⬇️</p>
+                <hr class="my-4">
+                <p>Just copy and paste your link in above input and be happy! 😁</p></br>
+                <div id="centerbody" class="row justify-content-center">
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" target="_blank" href="https://youtube.com" role="button">Youtube 🔺</a>
+                    </p>
+                </div>
+                <div id="centerbody" class="row justify-content-center">
+                    <p>Coded by Gabriel da Costa Valin - Developer JR.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
